@@ -102,4 +102,3 @@ round(snipped_returns$cov_ma, 8)
 round(snipped_returns$DNVaR, 2)
 
 plot(snipped_returns$days_since_2008, snipped_returns$DNVaR, color = "blue", type = "l")
-?cov.wt
